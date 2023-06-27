@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Pallavi__Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(17, 16, 22);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+        nav div a {
+            text-decoration: none;
+            color:white;
+        }
+
+        nav div a:hover{
+            color:rgb(175, 63, 123);
+            font-size: 2rem;
+            font-weight: 900;
+            
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+            font-weight: 600;
+            font-size: larger;
+        }
+
+        img {
+            border-radius: 20px;
+        }
+
+        img:hover {
+            font-size: larger;
+        }
+
+        .left {
+            font-size: 1.8rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+
+            font-size: 2rem;
+        }
+        .leftSection .buttons{
+            padding:18px;
+        }
+
+        .leftSection .btn {
+            font-size: 3rem;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+
+            padding: 8px;
+            color: white;
+            background-color: rgb(20, 22, 81);
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: cyan;
+        }
+
+        #element {
+            color: rgb(173, 255, 199);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background-color: blue;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9 rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 30vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+
+        }
+
+        .secondSection .vertical {
+            height: 80px;
+            width: 1px;
+            margin: 0 50px;
+            background-color: white;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            width: 100px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 100px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: rgb(14, 15, 39);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            padding: 12px;
+            text-align: center;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="#">Pallavi's Portfolio</a></div>
+            <div class="right">
+                <ul>
+
+                    <li><a href="portfolio.html">Home</a></li>
+
+
+                    <li><a href="About.html">About</a></li>
+
+                    <li><a href="Services.html">Services</a></li>
+
+                    <li><a href="Projects.html">Projects</a></li>
+
+                    <li> <a href="contact.html">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">HI, My name is <span class="purple">Pallavi</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="devp.webp"></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>work Experience</h1>
+
+            <div class="box">
+
+                <div class="vertical">
+                    <img class="image-top" src="1.png">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Oasis infobyte (January 2023)
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="1.png">
+                    <div class="vertical-title">
+                        Web developer
+                    </div>
+                    <div class="vertical-desc">
+                        simplbyte (March 2023)
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Pallavi's developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>contact me</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>contact me</li>
+                </ul>
+            </div>
+           
+        </div>
+        <div class="footer-rights"> Copyright &#169; www.pallavisportfolio.com | All right reserved</div>
+
+    </footer>
+
+
+    <!-- Setup and start animation! -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
